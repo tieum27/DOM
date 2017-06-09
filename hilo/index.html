@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hi Low Game</title>
+    <script type="text/javascript" src="hiLo.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to the High/Low Guessing Game!</h1>
+    <h2>Start the game? You have <span id="tries">3</span> more tries to guess the number.</h2><input type="button" value="Start" onclick="randNum()">
+
+    <input id="numInput" type="text">
+    <input type="button" value="Submit Your Guess!" onclick="hiLow(); decrease()">
+    <h2>Result: <span id="result"></span></h2>
+  </body>
+</html>
