@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+p {
+padding-top: 5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.top {
+  padding-top: 3em;
+}
+.container {
+  /*border: 2px solid black;*/
+  height: 75vh;
+  /*align-items: flex-start;
+  justify-content: space-around;*/
+  padding-left: 10em;
+}
+
+.container1 {
+  border: 2px solid black;
+  width: 30%;
+  height: 50%;
+  /*flex-basis: 35%;*/
+  position: absolute;
+  padding-left: 1em;
+}
+
+.container2 {
+  border: 2px solid black;
+  width: 40%;
+  height: 50%;
+  /*flex-basis: 50%;*/
+  position: absolute;
+  margin-left: 22em;
+  padding-left: 1em;
+}
